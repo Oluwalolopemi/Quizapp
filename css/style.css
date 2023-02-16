@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222479;
+}
+
+.middle{
+    background: #FBFBFE;
+    width: 40%;
+    border-radius: 8px;
+    padding: 24px 32px;
+    color: #06070C;
+    font-size: 20px;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+}
+
+.title{
+    margin: 12px 0;
+}
+
+button{
+    padding: 2px 64px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #FBFBFE;
+    border: 12px solid #222479 ;
+    background: #222479;
+    font-weight: 900;
+    margin-top: 24px;
+}
