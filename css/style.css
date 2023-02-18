@@ -13,13 +13,12 @@
     background-color: #222479;
 }
 
-.middle{
+#quiz{
     background: #FBFBFE;
     width: 40%;
     border-radius: 8px;
     padding: 24px 32px;
     color: #06070C;
-    font-size: 20px;
 }
 
 .logo{
@@ -27,8 +26,10 @@
     display: flex;
 }
 
-.title{
+.quiz-header{
     margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 button{
@@ -40,4 +41,37 @@ button{
     background: #222479;
     font-weight: 900;
     margin-top: 24px;
+}
+
+#score{
+    text-align: center;
+    margin: 32px 0;
+}
+
+.quiz-repeat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-repeat a{
+    text-decoration: none;
+    padding: 2px 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #FBFBFE;
+    border: 12px solid #222479 ;
+    background: #222479;
+    font-weight: 900;
+}
+
+
+/* media query */
+@media screen and (max-width: 429px){
+    #quiz{
+        
+        width: 70%;
+        padding: 20px;
+        font-size: 12px;
+    }
 }
